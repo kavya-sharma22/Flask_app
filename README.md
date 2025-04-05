@@ -10,9 +10,10 @@ To architect, build, and maintain a high-performance backend using Flask that en
 - Initialized a new Flask project using a modular architecture with **Blueprints**, **Services**, and **Repositories** to promote clean code and scalability.
 - Configured **Docker** for containerized deployment and ensured support for multiple environments: development, staging, and production.
 
-![Project Structure Screenshot](./Screenshot%202025-04-05%20230606.png)
+![Project Structure Screenshot](./Images/1.png)
 
-![Docker Compose Running](./Screenshot%202025-04-05%20230724.png)
+
+
 
 ### ✅ Output
 
