@@ -32,7 +32,7 @@ Creating flask_beat_scheduler ... done
 Preview URL: `http://localhost:5000`
 
 
-<img src="images/Screenshot 2025-04-04 032033.png" alt="My Image" width="500">
+
 
 ---
 
