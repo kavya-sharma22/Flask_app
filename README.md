@@ -10,14 +10,21 @@ To architect, build, and maintain a high-performance backend using Flask that en
 - Initialized a new Flask project using a modular architecture with **Blueprints**, **Services**, and **Repositories** to promote clean code and scalability.
 - Configured **Docker** for containerized deployment and ensured support for multiple environments: development, staging, and production.
 
-![Project Structure Screenshot](./Images/1.png)
+
+
 
 
 
 
 ### ✅ Output
 
+- Initialized a new Flask project using a modular architecture
+- <img src="./Images/3.png" alt="Home Page" width="600"/>
+
 - Flask project runs in a Docker container on `localhost:5000`
+
+- <img src="./Images/1.png" alt="Home Page" width="600"/>
+
 - Isolated environments via `.env.dev`
 - Docker Compose manages app, database, Redis, Celery, and beat services
 - Sample container setup output:
@@ -47,6 +54,7 @@ Preview URL: `http://localhost:5000`
 ### ✅ Output
 
 - `.env.dev` includes:
+- - <img src="./Images/4.png" alt="Home Page" width="600"/>
   ```env
   DATABASE_URL=postgresql://postgres:kavy%40@localhost:5432/tasklist_db
   ```
@@ -55,8 +63,11 @@ Preview URL: `http://localhost:5000`
   INFO  [alembic.runtime.migration] Running upgrade -> 123abc456, create taskmanager table
   ```
 - Successfully connected to DB:
+- - <img src="./Images/5.png" alt="Home Page" width="600"/>
   ```bash
   DB connection established successfully.
+
+   
   ```
 - Verified with `docker exec -it flask_postgres psql -U postgres` and listed tables in DB.
 
@@ -110,6 +121,7 @@ Preview URL: `http://localhost:5000`
 ### ✅ Output
 
 - Celery Beat logs:
+- - <img src="./Images/2.png" alt="Home Page" width="600"/>
   ```bash
   [2025-04-05 19:05:29,743: INFO/MainProcess] beat: Starting...
   ```
