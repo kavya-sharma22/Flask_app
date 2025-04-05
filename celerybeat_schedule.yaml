@@ -1,0 +1,5 @@
+celery:
+  beat_schedule:
+    sync-active-tasks-daily:
+      task: sync_active_tasks_daily
+      schedule: 86400  # Every 24 hours in seconds
