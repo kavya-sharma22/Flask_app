@@ -121,10 +121,12 @@ Preview URL: `http://localhost:5000`
 ### ✅ Output
 
 - Celery Beat logs:
-- - <img src="./Images/2.png" alt="Home Page" width="600"/>
+-  <img src="./Images/2.png" alt="Home Page" width="600"/>
   ```bash
   [2025-04-05 19:05:29,743: INFO/MainProcess] beat: Starting...
-  ```
+ 
+ ```
+-- <img src="./Images/6.png" alt="Home Page" width="600"/>
 - Celery Worker logs:
   ```bash
   [INFO] Running periodic task: sync_active_tasks_daily()
@@ -141,7 +143,8 @@ Preview URL: `http://localhost:5000`
   ```
 - Redis queues being used confirm distributed message handling.
 
----
+-- <img src="./Images/7.png" alt="Home Page" width="600"/>
+
 
 ## 📂 Task 5 – API Development with Security & Performance
 
